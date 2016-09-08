@@ -7,6 +7,10 @@ import android.util.Log;
  */
 class Human extends Animal implements Thinkable {
 
+    //GitHubへの連携検証のためこめんと行作成
+
+    String hobby; //趣味（←Humanクラス内にhobbyを宣言）
+
     // 引数付きコンストラクタ
     public Human(String name, int age, String hobby) {
         this.name = name;
@@ -21,9 +25,9 @@ class Human extends Animal implements Thinkable {
 //        Log.d("javatest", name + "は" + hobby + "について考える。"); //interfaceを使用しない場合は、本行を有効化することで同じ結果を得られる。
     }
 
-    //@override
+    @Override
     public void think() {
-        Log.d("javatest", name + "は" + hobby + "について考える。");
+        Log.d(" javatest", name + "は" + hobby + "について考える。");
     }
 
 }

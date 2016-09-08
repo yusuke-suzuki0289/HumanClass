@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Human human = new Human("鈴木", 30, "ダンス");     // 名前を鈴木、年齢30歳で、Humanのインスタンスを作る（=Human Classの呼び出し）
 
             human.say() ;
+            human.think();
 
     }
 
